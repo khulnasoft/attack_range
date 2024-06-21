@@ -304,7 +304,7 @@ class AwsController(AttackRangeController):
 
         if self.config['simulation']['prelude'] == "1":
             prelude_token = self.get_prelude_token('/var/tmp/.prelude_session_token')
-            messages.append("\nAccess Prelude Operator UI via:\n\tredirector FQDN > " + splunk_ip + "\n\tToken: " + prelude_token + "\n\tSee guide details: https://github.com/splunk/attack_range/wiki/Prelude-Operator")
+            messages.append("\nAccess Prelude Operator UI via:\n\tredirector FQDN > " + splunk_ip + "\n\tToken: " + prelude_token + "\n\tSee guide details: https://github.com/khulnasoft/attack_range/wiki/Prelude-Operator")
 
         print()
         print('Status Virtual Machines\n')

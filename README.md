@@ -1,16 +1,16 @@
-<a href="https://gitpod.io/#https://github.com/splunk/attack_range/tree/attack_range_3">
+<a href="https://gitpod.io/#https://github.com/khulnasoft/attack_range/tree/attack_range_3">
 <img align="right"src="https://gitpod.io/button/open-in-gitpod.svg" />
 </a>
 
 <p align="center">
-    <a href="https://github.com/splunk/attack_range/releases">
-        <img src="https://img.shields.io/github/v/release/splunk/attack_range" /></a>
-    <a href="https://github.com/splunk/attack_range/actions">
-        <img src="https://github.com/splunk/attack_range/actions/workflows/build_attack_destroy_aws.yml/badge.svg?branch=develop"/></a>
-    <a href="https://github.com/splunk/attack_range/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/splunk/attack_range" /></a>
-    <a href="https://github.com/splunk/attack_range/stargazers">
-        <img src="https://img.shields.io/github/stars/splunk/attack_range?style=social" /></a>
+    <a href="https://github.com/khulnasoft/attack_range/releases">
+        <img src="https://img.shields.io/github/v/release/khulnasoft/attack_range" /></a>
+    <a href="https://github.com/khulnasoft/attack_range/actions">
+        <img src="https://github.com/khulnasoft/attack_range/actions/workflows/build_attack_destroy_aws.yml/badge.svg?branch=develop"/></a>
+    <a href="https://github.com/khulnasoft/attack_range/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/khulnasoft/attack_range" /></a>
+    <a href="https://github.com/khulnasoft/attack_range/stargazers">
+        <img src="https://img.shields.io/github/stars/khulnasoft/attack_range?style=social" /></a>
 </p>
 
 # Splunk Attack Range ⚔️
@@ -28,13 +28,13 @@ The Attack Range Documentation can be found [here](https://attack-range.readthed
 
 ## Installation 🏗
 
-### [Using Docker](https://github.com/splunk/attack_range/wiki/Using-Docker)
+### [Using Docker](https://github.com/khulnasoft/attack_range/wiki/Using-Docker)
 
 Attack Range in AWS:
 
 ```
-docker pull splunk/attack_range
-docker run -it splunk/attack_range
+docker pull khulnasoft/attack_range
+docker run -it khulnasoft/attack_range
 aws configure
 python attack_range.py configure
 ```
@@ -56,7 +56,7 @@ The deployment of Attack Range consists of:
 - Linux Server
 - Zeek Server
 
-Which can be added/removed/configured using [attack_range.yml](https://github.com/splunk/attack_range/blob/develop/attack_range.yml). 
+Which can be added/removed/configured using [attack_range.yml](https://github.com/khulnasoft/attack_range/blob/develop/attack_range.yml). 
 
 ## Logging
 The following log sources are collected from the machines:
@@ -126,7 +126,7 @@ python attack_range.py replay --file_name attack_data/dump.log --source test --s
 ```
 
 ## Features 💍
-- [Splunk Server](https://github.com/splunk/attack_range/wiki/Splunk-Server)
+- [Splunk Server](https://github.com/khulnasoft/attack_range/wiki/Splunk-Server)
   * Indexing of Microsoft Event Logs, PowerShell Logs, Sysmon Logs, DNS Logs, ...
   * Preconfigured with multiple TAs for field extractions
   * Out of the box Splunk detections with Enterprise Security Content Update ([ESCU](https://splunkbase.splunk.com/app/3449/)) App
@@ -137,16 +137,16 @@ python attack_range.py replay --file_name attack_data/dump.log --source test --s
 
 - [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263/)
   * [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263/) is a premium security solution requiring a paid license.
-  * Enable or disable [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263/) in [attack_range.yml](https://github.com/splunk/attack_range/blob/develop/attack_range.yml)
+  * Enable or disable [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263/) in [attack_range.yml](https://github.com/khulnasoft/attack_range/blob/develop/attack_range.yml)
   * Purchase a license, download it and store it in the apps folder to use it.
 
 - [Splunk SOAR](https://www.splunk.com/en_us/software/splunk-security-orchestration-and-automation.html)
   * [Splunk SOAR](https://www.splunk.com/en_us/software/splunk-security-orchestration-and-automation.html) is a Security Orchestration and Automation platform
   * For a free development license (100 actions per day) register [here](https://my.phantom.us/login/?next=/)
-  * Enable or disable [Splunk SOAR](https://www.splunk.com/en_us/software/splunk-security-orchestration-and-automation.html) in [attack_range.yml](https://github.com/splunk/attack_range/blob/develop/attack_range.yml)
+  * Enable or disable [Splunk SOAR](https://www.splunk.com/en_us/software/splunk-security-orchestration-and-automation.html) in [attack_range.yml](https://github.com/khulnasoft/attack_range/blob/develop/attack_range.yml)
 
-- [Windows Domain Controller & Window Server & Windows 10 Client](https://github.com/splunk/attack_range/wiki/Windows-Infrastructure)
-  * Can be enabled, disabled and configured over [attack_range.yml](https://github.com/splunk/attack_range/blob/develop/attack_range.yml)
+- [Windows Domain Controller & Window Server & Windows 10 Client](https://github.com/khulnasoft/attack_range/wiki/Windows-Infrastructure)
+  * Can be enabled, disabled and configured over [attack_range.yml](https://github.com/khulnasoft/attack_range/blob/develop/attack_range.yml)
   * Collecting of Microsoft Event Logs, PowerShell Logs, Sysmon Logs, DNS Logs, ...
   * Sysmon log collection with customizable Sysmon configuration
   * RDP connection over port 3389 with user Administrator
@@ -167,7 +167,7 @@ python attack_range.py replay --file_name attack_data/dump.log --source test --s
 
 
 ## Support 📞
-Please use the [GitHub issue tracker](https://github.com/splunk/attack_range/issues) to submit bugs or request features.
+Please use the [GitHub issue tracker](https://github.com/khulnasoft/attack_range/issues) to submit bugs or request features.
 
 If you have questions or need support, you can:
 

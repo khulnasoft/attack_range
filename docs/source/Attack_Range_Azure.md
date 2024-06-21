@@ -3,8 +3,8 @@
 ## Docker
 We built a docker image which you can use to build and run the attack range. The image includes all needed binaries. 
 ````bash
-docker pull splunk/attack_range
-docker run -it splunk/attack_range
+docker pull khulnasoft/attack_range
+docker run -it khulnasoft/attack_range
 az login
 python attack_range.py configure
 ````

@@ -36,7 +36,7 @@ Please make sure to read and observe our [Code of Conduct](contributing/code-of-
 Help is always welcome! For example, documentation can always use improvement. There's always code that can be clarified, functionality that can be extended, and tests to be added to guarantee behavior. If you see something you think should be fixed, don't be afraid to own it.
 
 ##### Feature Requests and Bug Reports
-Have ideas on improvements? See something that needs work? While the community encourages everyone to contribute code, it is also appreciated when someone reports an issue. Please report any issues or bugs you find through [GitHub's issue tracker](https://github.com/splunk/attack_range/issues). 
+Have ideas on improvements? See something that needs work? While the community encourages everyone to contribute code, it is also appreciated when someone reports an issue. Please report any issues or bugs you find through [GitHub's issue tracker](https://github.com/khulnasoft/attack_range/issues). 
 
 If you are reporting a bug, please include:
 
@@ -50,7 +50,7 @@ We'd also like to hear about your propositions and suggestions. Feel free to sub
 * Note that keeping the scope as narrow as possible will make the suggestion easier to implement
 
 ##### Fixing Issues
-Look through our [issue tracker](https://github.com/splunk/attack_range/issues) to find problems to fix! Feel free to comment and tag corresponding stakeholders or full-time maintainers of this project with any questions or concerns.
+Look through our [issue tracker](https://github.com/khulnasoft/attack_range/issues) to find problems to fix! Feel free to comment and tag corresponding stakeholders or full-time maintainers of this project with any questions or concerns.
 
 ##### Pull Requests
 What is a "pull request"? It informs the project's core developers about the changes you want to review and merge. Once you submit a pull request, it enters a stage of code review where you and others can discuss its potential modifications and maybe even add more commits to it later on. 
@@ -63,7 +63,7 @@ We leverage [pre-commit hooks](.pre-commit-config.yaml) in our project to have s
 Here's an overview of how you can make a pull request against this project:
 
 1. Fill out the [Splunk Contribution Agreement](https://www.splunk.com/goto/contributions).
-2. Fork the [analytic\_story\_execution GitHub repository](https://github.com/splunk/attack_range/issues)
+2. Fork the [analytic\_story\_execution GitHub repository](https://github.com/khulnasoft/attack_range/issues)
 3. Clone your fork using git and create a branch off of develop
 
     ```

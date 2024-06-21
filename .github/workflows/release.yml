@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  IMAGE_NAME: "splunk/attack_range"
+  IMAGE_NAME: "khulnasoft/attack_range"
 
 jobs:
 
@@ -82,8 +82,8 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Setup Docker Build and Push
         uses: docker/build-push-action@v2

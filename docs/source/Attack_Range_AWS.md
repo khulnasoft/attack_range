@@ -3,8 +3,8 @@
 ## Docker
 We built a docker image which you can use to build and run the attack range. The image includes all needed binaries. 
 ````bash
-docker pull splunk/attack_range
-docker run -it splunk/attack_range
+docker pull khulnasoft/attack_range
+docker run -it khulnasoft/attack_range
 aws configure
 python attack_range.py configure
 ````
@@ -12,7 +12,7 @@ python attack_range.py configure
 ## MacOS
 Clone attack_range git repo to local machine:
 ````bash
-git clone https://github.com/splunk/attack_range.git
+git clone https://github.com/khulnasoft/attack_range.git
 cd attack_range
 ````
 
@@ -56,7 +56,7 @@ apt-get install -y python3.8 git unzip python3-pip curl
 
 Clone attack_range git repo to local machine:
 ````bash
-git clone https://github.com/splunk/attack_range.git
+git clone https://github.com/khulnasoft/attack_range.git
 cd attack_range
 ````
 

@@ -3,7 +3,7 @@
 ## MacOS
 Clone the [Attack Range]() git repo to your local machine, and open the folder:
 ````bash
-git clone https://github.com/splunk/attack_range.git
+git clone https://github.com/khulnasoft/attack_range.git
 cd attack_range
 ````
 
@@ -29,7 +29,7 @@ python attack_range.py configure
 ## Linux
 Clone the [Attack Range]() git repo to your local machine, and open the folder:
 ````bash
-git clone https://github.com/splunk/attack_range.git
+git clone https://github.com/khulnasoft/attack_range.git
 cd attack_range
 ````
 
